@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #D6E1F0;
+}
+
+.QR-code {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 12px;
+  padding: 12px;
+  margin: auto;
+  width: 300px;
+}
+
+.QR-code img {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.QR-code div {
+  width: 85%;
+  margin: 1rem auto;
+}
+
+.QR-code h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.QR-code p {
+  font-size: 0.938rem;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+}
+
+.attribution {
+  font-size: 1rem;
+  text-align: center;
+}
